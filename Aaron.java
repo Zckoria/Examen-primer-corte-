@@ -148,7 +148,7 @@ public class Aaron extends JFrame {
 	
 	private void calcularResultado() {
 		if (operacion.equals("convertidor")) {
-			resultado = new Double(pantalla.getText()) / 19;
+			resultado = new Double(pantalla.getText())* .19;
 		}      
 		pantalla.setText("" + resultado);
 		operacion = "";
